@@ -1,0 +1,35 @@
+{
+  "name": "project-architect",
+  "version": "0.1.0",
+  "description": "Architecture-aware Codex plugin: injects current project structure every turn and makes reuse-before-write the default workflow.",
+  "author": {
+    "name": "xuzihan"
+  },
+  "license": "MIT",
+  "keywords": [
+    "architecture",
+    "reuse",
+    "godot",
+    "gdscript",
+    "codex",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Project Architect",
+    "shortDescription": "Understand project structure every turn and reuse existing code.",
+    "longDescription": "Injects a compact project architecture summary into Codex at session start and before every user prompt. Provides MCP tools for searching reusable code, registering new scripts, and keeping the architecture index fresh.",
+    "developerName": "xuzihan",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "\u5148\u67e5\u770b\u5f53\u524d\u9879\u76ee\u67b6\u6784\uff0c\u518d\u5f00\u59cb\u5f00\u53d1",
+      "\u641c\u7d22\u53ef\u590d\u7528\u5b9e\u73b0\u540e\u5b8c\u6210\u8fd9\u4e2a\u529f\u80fd"
+    ],
+    "brandColor": "#2563EB"
+  }
+}

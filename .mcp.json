@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "project-architect": {
+      "command": "python",
+      "args": ["scripts/mcp_server.py"],
+      "cwd": "."
+    }
+  }
+}
